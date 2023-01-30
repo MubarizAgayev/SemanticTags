@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    height: 697px;
+    width: 1480px;
+    border: 4px solid gray;
+}
+
+.col-1{
+    width: 8.33%;
+    background-color: black;
+}
+.col-2{
+    width: 16.66%;
+    background-color: black;
+}
+.col-3{
+    width: 25%;
+    height: 240px;
+    background-color: darkviolet;
+}
+.col-4{
+    width: 33.33%;
+    background-color: orange;
+}
+.col-5{
+    width: 41.66%;
+    background-color: cyan;
+}
+.col-6{
+    width: 50%;
+    height: 240px;
+    background-color: orange;
+}
+.col-7{
+    width: 58.33%;
+    background-color: yellowgreen;
+}
+.col-8{
+    width: 66.66%;
+    background-color: yellow;
+}
+.col-9{
+    width: 75%;
+    height: 240px;
+    background-color:lightgreen;
+}
+.col-10{
+    width: 83.33%;
+    background-color: gray;
+}
+.col-11{
+    width: 91.66%;
+    background-color: violet;
+}
+.col-12{
+    width: 100%;
+}
+
+.row{
+    display: flex;
+    gap: 10px;
+}
+#navbar{
+    display: flex;
+    height: 80px;
+    background-color: lightskyblue;
+}
+#main{
+    margin-top: 10px;
+    height: 500px;
+    width: 100%;
+    padding-left: 470px;
+}
+#main .up{
+    width: 600px;
+    height: 240px;
+    display: flex;
+    gap: 10px;
+}
+#main .down{
+    width: 600px;
+    height: 240px;
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+#last{
+    background-color: darkblue;
+    width: 100%;
+    height: 99px;
+}
